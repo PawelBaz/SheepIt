@@ -7,7 +7,6 @@ const hintEl = document.getElementById('hint');
 const resultEl = document.getElementById('result');
 const guessInput = document.getElementById('guess');
 const checkBtn = document.getElementById('check');
-const sendBtn = document.getElementById('send');
 
 checkBtn.addEventListener('click', () => {
   const val = Number(guessInput.value);
