@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  background: #f5f5f5;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 300px;
+}
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  box-sizing: border-box;
+}
+button {
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#check { background: #3498db; color: #fff; }
+#send { background: #2ecc71; color: #fff; margin-top: 1rem; }
+#send[disabled] { opacity: 0.5; cursor: not-allowed; }
